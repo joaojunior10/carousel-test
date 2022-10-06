@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.splide__arrow--prev {
+  left: 0.5em;
+}
+
+.splide__arrow--next {
+  right: 0.5em;
+}
+
+.splide__arrow {
+  height: 4em;
+  width: 4em;
+  svg {
+    fill: #000;
+    height: 3.2em;
+    width: 3.2em;
+  }
+}
